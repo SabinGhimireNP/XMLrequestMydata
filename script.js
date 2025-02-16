@@ -14,7 +14,7 @@ xhr.onreadystatechange = function () {
       console.log("pressed");
       btnDiv.remove();
       btn.style.display = "none";
-      // card.style.display = "block";
+      card.style.display = "block";
       document.querySelector(".name").innerHTML = `${data.name}`;
       document.querySelector(
         ".following"
