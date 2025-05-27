@@ -1,4 +1,4 @@
-const url = "https://api.github.com/users/sabinghimire223";
+const url = "https://api.github.com/users/SabinGhimireNP";
 const button = document.getElementById("getData");
 const resultDiv = document.getElementById("result");
 const xhr = new XMLHttpRequest();
